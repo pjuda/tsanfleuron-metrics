@@ -1,0 +1,17 @@
+name: tsanfleuron
+channels:
+  - default
+dependencies:
+  - python=3.8.10
+  - ipython
+  - ipykernel
+  - jupyterlab
+  - pip
+  - pip:
+    - pandas
+    - numpy
+    - matplotlib
+    - properscoring==0.1
+    - /home/judap/source/geone
+    - pyvista
+
